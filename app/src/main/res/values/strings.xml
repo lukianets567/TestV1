@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TestV1</string>
+    <string-array name="state">
+        <item>stop</item>
+        <item>ready</item>
+        <item>go</item>
+    </string-array>
 </resources>

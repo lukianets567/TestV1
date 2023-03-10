@@ -2,6 +2,6 @@
 <resources>
     <declare-styleable name="TestShape">
         <attr name="height" format="string"/>
-        <attr name="state" format=""/>
+        <attr name="state" format="string"/>
     </declare-styleable>
 </resources>

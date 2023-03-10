@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android"
     >
-    <item android:state="stop">
-        <shape android:shape="rectangle">
+    <item>
+        <shape android:shape="oval">
             <solid android:color="@color/red"/>
             <corners
                 android:bottomLeftRadius="40dp"
@@ -10,35 +10,11 @@
                 android:topLeftRadius="40dp"
                 android:topRightRadius="40dp"
                 />
-            <size android:height="80dp"/>
+            <size android:height="80dp"
+                android:width="80dp"/>
         </shape>
     </item>
 
-    <item android:state="ready">
-        <shape android:shape="rectangle">
-            <solid android:color="@color/b_red"/>
-            <corners
-                android:bottomLeftRadius="40dp"
-                android:bottomRightRadius="40dp"
-                android:topLeftRadius="40dp"
-                android:topRightRadius="40dp"
-                />
-            <size android:height="80dp"/>
-        </shape>
 
-    </item>
 
-    <item android:state="go">
-        <shape android:shape="rectangle">
-            <solid android:color="@color/b_red"/>
-            <corners
-                android:bottomLeftRadius="40dp"
-                android:bottomRightRadius="40dp"
-                android:topLeftRadius="40dp"
-                android:topRightRadius="40dp"
-                />
-            <size android:height="80dp"/>
-        </shape>
-
-    </item>
 </selector>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="TestShape">
-        <attr name="height" format="string"/>
-        <attr name="state" format="string"/>
+        <attr name="state">
+            <enum name="stop" value="0"/>
+            <enum name="ready" value="1"/>
+            <enum name="go" value="2"/>
+        </attr>
+        <attr name="color" format="color"/>
     </declare-styleable>
 </resources>
